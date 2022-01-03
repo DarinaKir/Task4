@@ -20,23 +20,23 @@ public class Property {
     }
 
     public User getUser() {
-        return user;
+        return this.user;
     }
 
     public boolean getForRent (){
-        return forRent;
+        return this.forRent;
     }
 
     public String getType (){
-        return type;
+        return this.type;
     }
 
     public int getRoomNumbers() {
-        return roomNumbers;
+        return this.roomNumbers;
     }
 
     public int getPrice() {
-        return price;
+        return this.price;
     }
 
     public String toString (){
