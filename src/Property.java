@@ -40,7 +40,7 @@ public class Property {
     }
 
     public String toString (){
-        return this.type+" - " + (forRent ? "for rent" : "for sale") +": " + this.roomNumbers + " rooms" + ((!this.type.equals("Private home") ? ", floor "+this.floor : ""))+
+        return this.type+" - " + (this.forRent ? "for rent" : "for sale") +": " + this.roomNumbers + " rooms" + ((!this.type.equals("Private home") ? ", floor "+this.floor : ""))+
                 ".\n" + "Price : " + this.price + " $\n" + "Contact info: " + this.user + "\n"+
                 "(Address : "+this.address+")";
     }
