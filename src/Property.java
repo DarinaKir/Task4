@@ -35,7 +35,7 @@ public class Property {
         return this.roomNumbers;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return this.price;
     }
 
